@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Developer Resume</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+<ul id="slide-out" class="sidenav">
+    <li><a href="#contacts">Контакты</a></li>
+    <li><a href="#education">Образование</a></li>
+    <li><a href="#about">Обо мне</a></li>
+    <li><a href="#hobbies">Увлечения</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Опыт</a></li>
+</ul>
+<i data-target="slide-out" style="margin-top: 3%; margin-left: 3%" class="sidenav-trigger medium material-icons">clear_all</i>
+
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <h3 class="center-align">Узянов Даниил</h3>
+            <h4 class="center-align">Golang Backend Developer</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <img style="margin: 2.8rem 0 1.68rem 0;" class="materialboxed" width="200" src="main.png">
+        </div>
+    </div>
+
+    <div class="row" id="contacts">
+        <div class="col s12">
+            <h5>Контакты</h5>
+            <ul class="collection">
+                <li class="collection-item">Email: <a href="mailto:daniil.uzianov@outlook.com">daniil.uzianov@outlook.com</a>
+                </li>
+                <li class="collection-item">Phone: <a class="phone-link" href="tel:+79956778781">+7(995)-677-87-81</a>
+                </li>
+                <li class="collection-item">Telegram: <a target="_blank" href="https://t.me/danzelVash">@danzelVash</a>
+                </li>
+                <li class="collection-item">VK: <a target="_blank" href="https://vk.com/id419960467">danzelVash</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row" id="education">
+        <div class="col s12">
+            <h5>Образование</h5>
+            <p>Высшее незаконченное: РТУ МИРЭА</p>
+        </div>
+    </div>
+    <div class="row" id="about">
+        <div class="col s12">
+            <h5>Обо мне</h5>
+            <p>Backend developer с опытом работы 2 года. Сейчас активно работаю с языком Golang. В своей работе я
+                стараюсь использовать собственные подходы к разработке, стараюсь сделать так, чтобы они соответствовали
+                best practices языка и современным постулатам разработки.<br><br>Я специализируюсь на разработке API,
+                для проектов использую Clean Architecture. Я стараюсь документировать свои проекты с помощью Swagger и
+                покрывать тестами критические участки кода.<br>Кроме разработки API, я занимаюсь проектами, которые
+                требуют знаний операционных систем. К примеру, один из моих проектов - это Execute Pipeline, он был
+                написан с использованием подхода Test-driven development.<br><br>Также я знаком с подходом к организации
+                приложений с помощью микросервисной архитектуры. Я разрабатывал приложение из двух сервисов: на Golang и
+                Python с помощью grpc. Более подробное описание работы можно посмотреть ниже в блоке "Опыт".1.<br><br>Одна
+                из самых запоминающихся моих работ - это потоковая асинхронная обработка видео. Передо мной стояла
+                задача - сделать асинхронную нарезку видео на 10-ти секундные части с разным битрейтом. Также асинхронно
+                загрузить эти части на s3 хранилище, таким образом, чтобы можно было во время последующего
+                воспроизведения видео заменять поток данных на поток с другим разрешением (с помощью HTTP Live
+                Streaming).<br><br>Сейчас я работаю на языке Golang, но также я работал с Django Framework на python,
+                помимо этого, мне приходилось работать с языком Си. На языке Си я разрабатывал клиент-серверное
+                приложение, работающее на web socket, приложение асинхронное, для эффективности обработки запросов я
+                использовал механизм приоритетной очереди, этот проект тестировал с помощью CUnit.</p>
+        </div>
+    </div>
+
+    <div class="row" id="hobbies">
+        <div class="col s12">
+            <h5>Увлечения</h5>
+            <p>Создатель и спикер youtube канала <a target="_blank"
+                                                    href="https://www.youtube.com/channel/UCEi5k3HhQoIRtA4dMaFRqfA">GoPy
+                IT</a>. Решил создать канал, чтобы развивать индустрию, привлекать новых людей и разбавлять сухое
+                объяснение материала каплей креатива. Также хочу получить новый опыт, почувствовать себя наставником для
+                начинающих ребят. На канале объясняются технические аспекты работы, разбавленные юмором.</p>
+        </div>
+    </div>
+
+    <div class="row" id="skills">
+        <div class="col s6">
+            <h5>Skills</h5>
+            <div class="chip">Golang</div>
+            <div class="chip">Grpc</div>
+            <div class="chip">Gin</div>
+            <div class="chip">Echo</div>
+            <div class="chip">Swagger</div>
+            <div class="chip">Docker</div>
+            <div class="chip">Git</div>
+            <div class="chip">PostgreSQL</div>
+            <div class="chip">MySQL</div>
+            <div class="chip">Linux</div>
+            <div class="chip">REST</div>
+            <div class="chip">API Development</div>
+        </div>
+        <div class="col s6">
+            <h5>Side skills</h5>
+            <div class="chip">C</div>
+            <div class="chip">Python</div>
+            <div class="chip">Django</div>
+            <div class="chip">JS/HTML/CSS</div>
+        </div>
+    </div>
+
+    <div class="row" id="experience">
+        <div class="col s12">
+            <h5>Опыт</h5>
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title" id="exp_title">Описание проектов</span>
+                    <p id="exp_text">Здесь по ссылкам внизу (1, 2...) написано краткое описание малой части проектов,
+                        которые мне довелось разработать. Для каждого проекта я выбираю уникальный подход. Чтобы узнать
+                        о проектах подробнее можно перейти по ссылке в каждой из карточек, они ведут на репозиторий с
+                        кодом, в каждом из которых можно прочитать подробное описание.</p>
+                </div>
+                <div class="card-action">
+                    <button class="waves-effect waves-teal btn-flat yellow-text" onclick="change_1()">1</button>
+                    <button class="waves-effect waves-teal btn-flat yellow-text" onclick="change_2()">2</button>
+                    <button class="waves-effect waves-teal btn-flat yellow-text" onclick="change_3()">3</button>
+                    <button class="waves-effect waves-teal btn-flat yellow-text" onclick="change_4()">4</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+</div>
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+
+        var img = document.querySelectorAll('.materialboxed');
+        var ins = M.Materialbox.init(img);
+    });
+</script>
+<script type="text/javascript">
+    function change_1() {
+        let title = document.querySelector('#exp_title');
+        let exp_text = document.querySelector('#exp_text');
+        title.textContent = "Microservices AI"
+        exp_text.innerHTML = "В данном <a target='_blank' href='https://github.com/danzelVash/artificial_intelligence_microservices'>проекте</a> представлена работа по разработке бекенда для сайта. Основной сервис написан на Golang (echo framework), второй на Python.(Стэк технологий: grpc, go, echo, openaiSDK for go,  python (и библиотеки для питона)). По ссылке написано очень подробное описание."
+    }
+
+    function change_2() {
+        let title = document.querySelector('#exp_title');
+        let exp_text = document.querySelector('#exp_text');
+        title.textContent = "Courses marketplace"
+        exp_text.innerHTML = "В данном <a target='_blank' href='https://github.com/danzelVash/courses'>проекте</a> представлена работа по разработке бекенда для маркетплейса по продаже курсов. Стэк технологий: go, gin, clean architecture, yandex cloud, ffmpeg (Это только самое интересное)."
+    }
+
+    function change_3() {
+        let title = document.querySelector('#exp_title');
+        let exp_text = document.querySelector('#exp_text');
+        title.textContent = "Finance intermediary"
+        exp_text.innerHTML = "В данном <a target='_blank' href='https://github.com/danzelVash/zaimik'>проекте</a> представлена работа по разработке бекенда для малого бизнеса. Стэк технологий: go, gin, swagger, clean architecture, yandex cloud, Tinkoff API. Бекенд сделан для посредника между компаниями выдающими кредиты и клиентами."
+    }
+
+    function change_4() {
+        let title = document.querySelector('#exp_title');
+        let exp_text = document.querySelector('#exp_text');
+        title.textContent = "Спасибо!"
+        exp_text.innerHTML = "За то, что уделили время моему резюме!"
+    }
+</script>
+
+</body>
+<footer class="page-footer blue-grey darken-4">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">С уважением, Узянов Даниил Евгеньевич</h5>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="row">
+            Made by <a target="_blank" href="https://t.me/danzelVash">danzelVash</a>
+        </div>
+    </div>
+</footer>
+</html>
